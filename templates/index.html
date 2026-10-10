@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Social Media Churn Prediction</title>
+
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>Social Media Churn Prediction</h1>
+        <p>Predict whether a user is likely to churn based on their activity and engagement.</p>
+    </div>
+
+    <form action="/predict" method="POST">
+
+        <div class="form-grid">
+
+            <div class="form-group">
+                <label>Average Session Duration</label>
+                <input type="number" name="avg_session_duration" step="any" required>
+            </div>
+
+            <div class="form-group">
+                <label>Posts Created</label>
+                <input type="number" name="posts_created" step="any" required>
+            </div>
+
+            <div class="form-group">
+                <label>Likes Given</label>
+                <input type="number" name="likes_given" step="any" required>
+            </div>
+
+            <div class="form-group">
+                <label>Comments Made</label>
+                <input type="number" name="comments_made" step="any" required>
+            </div>
+
+            <div class="form-group">
+                <label>Shares</label>
+                <input type="number" name="shares" step="any" required>
+            </div>
+
+            <div class="form-group">
+                <label>Watch Time</label>
+                <input type="number" name="watch_time" step="any" required>
+            </div>
+
+            <div class="form-group">
+                <label>Notifications Clicked</label>
+                <input type="number" name="notifications_clicked" step="any" required>
+            </div>
+
+            <div class="form-group">
+                <label>Recommended Content Clicks</label>
+                <input type="number" name="recommended_content_clicks" step="any" required>
+            </div>
+
+            <div class="form-group">
+                <label>Ads Clicked</label>
+                <input type="number" name="ads_clicked" step="any" required>
+            </div>
+
+            <div class="form-group">
+                <label>Engagement Score</label>
+                <input type="number" name="engagement_score" step="any" required>
+            </div>
+
+            <div class="form-group">
+                <label>Habit Score</label>
+                <input type="number" name="habit_score" step="any" required>
+            </div>
+
+            <div class="form-group">
+                <label>Age Group 25–34</label>
+                <select name="age_group_25_34" required>
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Age Group 35–44</label>
+                <select name="age_group_35_44" required>
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Age Group 45+</label>
+                <select name="age_group_45" required>
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+
+        </div>
+
+        <button type="submit">Predict Churn</button>
+
+    </form>
+
+</div>
+
+
+</body>
+</html>
