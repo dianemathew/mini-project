@@ -61,3 +61,4 @@ The application is designed to accept the required user activity information, pr
 Expected Outcome:
 The project aims to develop a machine learning classification system that identifies social media users who are likely to churn based on their activity and engagement patterns.
 The results can help demonstrate how machine learning can support user-retention analysis and provide insights into social media user behaviour.
+
