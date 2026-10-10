@@ -4,7 +4,7 @@ Project Description:
 This project predicts whether a social media user is likely to churn based on their social media activity and engagement behaviour.
 
 Project Topic:
- Social Media User Churn Prediction Using Machine Learning
+Social Media User Churn Prediction Using Machine Learning
 
 Project Description:
 Social media platforms rely on user engagement and retention to maintain an active user base. Identifying users who are likely to stop using a platform can help improve user retention and engagement strategies.
@@ -24,9 +24,41 @@ Target Variable: churn_flag
 
 
 Technologies Used:
-Python
-Flask
-NumPy
-Scikit-learn
-HTML
-CSS
+Python – Programming language
+NumPy – Numerical operations
+Pandas – Data manipulation and analysis
+Matplotlib & Seaborn – Data visualization and exploratory data analysis
+Scikit-learn – Data preprocessing, feature selection, model training, and evaluation
+Flask – Web application development
+HTML – Web page structure
+CSS – Web page styling
+Joblib – Saving and loading the trained machine learning model
+
+Machine Learning Models:
+The project evaluates multiple classification algorithms to identify the most suitable model for predicting social media user churn.
+
+The models used are:-
+
+Logistic Regression
+Decision Tree Classifier
+Random Forest Classifier
+K-Nearest Neighbors (KNN)
+Gradient Boosting Classifier
+
+Model Evaluation:
+The classification models are evaluated using appropriate performance metrics, including:-
+
+Accuracy
+Precision
+Recall
+F1-score
+ROC-AUC score
+The evaluation results are compared to determine the best-performing model.
+
+Web Application:
+The project includes a Flask-based web application that connects the trained machine learning model to a user-friendly interface.
+The application is designed to accept the required user activity information, process the input using the same preprocessing steps applied during training, and display the predicted churn outcome.
+
+Expected Outcome:
+The project aims to develop a machine learning classification system that identifies social media users who are likely to churn based on their activity and engagement patterns.
+The results can help demonstrate how machine learning can support user-retention analysis and provide insights into social media user behaviour.
