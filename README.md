@@ -52,7 +52,7 @@ Accuracy
 Precision
 Recall
 F1-score
-ROC-AUC score
+ROC-AUC score.
 The evaluation results are compared to determine the best-performing model.
 
 Web Application:
