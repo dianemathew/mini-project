@@ -39,19 +39,18 @@ The project evaluates multiple classification algorithms to identify the most su
 
 The models used are:-
 
-Logistic Regression
-Decision Tree Classifier
-Random Forest Classifier
-K-Nearest Neighbors (KNN)
-Gradient Boosting Classifier
+Logistic Regression,
+Decision Tree Classifier,
+Random Forest Classifier,
+K-Nearest Neighbors (KNN),
+Gradient Boosting Classifier.
 
 Model Evaluation:
 The classification models are evaluated using appropriate performance metrics, including:-
-
-Accuracy
-Precision
-Recall
-F1-score
+Accuracy,
+Precision,
+Recall,
+F1-scor,e
 ROC-AUC score.
 The evaluation results are compared to determine the best-performing model.
 
